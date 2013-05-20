@@ -9,13 +9,7 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers class="vector">
-    <hudson.plugins.promoted__builds.PromotionTrigger plugin="promoted-builds@2.10">
-      <spec></spec>
-      <jobName>publish-artefact</jobName>
-      <process></process>
-    </hudson.plugins.promoted__builds.PromotionTrigger>
-  </triggers>
+  <triggers class="vector"/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
