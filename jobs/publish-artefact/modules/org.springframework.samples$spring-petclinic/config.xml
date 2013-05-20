@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <maven2-module-set plugin="maven-plugin@1.510">
+  <actions/>
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.scm.NullSCM"/>
@@ -11,7 +12,7 @@
   <concurrentBuild>false</concurrentBuild>
   <reporters/>
   <displayName>petclinic</displayName>
-  <version>1.0.58-SNAPSHOT</version>
+  <version>1.0.59-SNAPSHOT</version>
   <packaging>war</packaging>
   <relativePath></relativePath>
   <dependencies>
