@@ -7,6 +7,11 @@
     <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.5">
       <projectUrl>http://github.com/AvegaGroup/spring-petclinic/</projectUrl>
     </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    <hudson.plugins.promoted__builds.JobPropertyImpl plugin="promoted-builds@2.10">
+      <activeProcessNames>
+        <string>Released</string>
+      </activeProcessNames>
+    </hudson.plugins.promoted__builds.JobPropertyImpl>
   </properties>
   <scm class="hudson.plugins.git.GitSCM" plugin="git@1.3.0">
     <configVersion>2</configVersion>
