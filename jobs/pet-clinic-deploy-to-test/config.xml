@@ -25,7 +25,7 @@
     <hudson.plugins.promoted__builds.PromotionTrigger plugin="promoted-builds@2.10">
       <spec></spec>
       <jobName>pet-clinic-release</jobName>
-      <process></process>
+      <process>Released</process>
     </hudson.plugins.promoted__builds.PromotionTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
