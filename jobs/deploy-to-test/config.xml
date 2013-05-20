@@ -13,7 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;Deploy ${build.number} to test&quot;</command>
+      <command>echo &quot;Deploy to test&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
