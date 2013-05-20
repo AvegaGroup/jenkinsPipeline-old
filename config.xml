@@ -38,7 +38,7 @@
       <alwaysAllowManualTrigger>false</alwaysAllowManualTrigger>
       <showPipelineParameters>false</showPipelineParameters>
       <refreshFrequency>0</refreshFrequency>
-      <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
+      <showPipelineDefinitionHeader>true</showPipelineDefinitionHeader>
       <displayProgressBar>false</displayProgressBar>
     </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
   </views>
