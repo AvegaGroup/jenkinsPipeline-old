@@ -1,0 +1,20 @@
+Changes in branch origin/master, between cde06ce02c5f1b5feb2ef9c5dd19866c8d6b8068 and 13924c5ad5da7762ce4f8706482736b7039793ca
+commit 13924c5ad5da7762ce4f8706482736b7039793ca
+tree 1e5a346d513f28460a72ad064ff44b6235b853f3
+parent fa4c0ed34f86875ce531634e5040ede513eabe1c
+author avegaLabUser <root@labci2.hem.sennerholm.net> 1369051321 -0500
+committer avegaLabUser <root@labci2.hem.sennerholm.net> 1369051321 -0500
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 ccc49e5aaa9af9d1d929ae46afbf71ff8e775d44 20b2856701903102b84c026efacfced76698c16c M	pom.xml
+
+commit fa4c0ed34f86875ce531634e5040ede513eabe1c
+tree 06b7e3bfc112b8efc338a29ca02c9e549545019f
+parent cde06ce02c5f1b5feb2ef9c5dd19866c8d6b8068
+author avegaLabUser <root@labci2.hem.sennerholm.net> 1369051314 -0500
+committer avegaLabUser <root@labci2.hem.sennerholm.net> 1369051314 -0500
+
+    [maven-release-plugin] prepare release spring-petclinic-1.0.54
+
+:100644 100644 b95ca24ba5ad20e9d4072e03b152dea1326af4ed ccc49e5aaa9af9d1d929ae46afbf71ff8e775d44 M	pom.xml

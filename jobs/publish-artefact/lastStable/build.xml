@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@1.510">
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>pet-clinic-build</upstreamProject>
+          <upstreamUrl>job/pet-clinic-build/</upstreamUrl>
+          <upstreamBuild>50</upstreamBuild>
+          <upstreamCauses>
+            <hudson.model.Cause_-UserIdCause/>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@1.3.0">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/hibernate-validator-el-issue</string>
+          <hudson.plugins.git.util.Build>
+            <revision plugin="git-client@1.0.5">
+              <sha1>9f03507630cb340d8f6edd153a77ac24595bf981</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/hibernate-validator-el-issue</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <revision plugin="git-client@1.0.5">
+              <sha1>13924c5ad5da7762ce4f8706482736b7039793ca</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>80</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>origin/jenkinsBuild</string>
+          <hudson.plugins.git.util.Build>
+            <revision plugin="git-client@1.0.5">
+              <sha1>e39e01c986fb9343baf274ee367bd8bd21b0ff6e</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/jenkinsBuild</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>20</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>origin/HEAD</string>
+          <hudson.plugins.git.util.Build>
+            <revision plugin="git-client@1.0.5">
+              <sha1>d5ef1dd3fd0e77fb1fb0257aeeb7df24462d2907</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/HEAD</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>3</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry[2]/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/AvegaGroup/spring-petclinic.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@1.3.0">
+      <build class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/root/.jenkins/jobs/pet-clinic-release/workspace</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.plugins.promoted__builds.PromotedBuildAction plugin="promoted-builds@2.10">
+      <owner class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+      <statuses/>
+    </hudson.plugins.promoted__builds.PromotedBuildAction>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <build class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+      <record>
+        <entry>
+          <string>org.springframework.samples:spring-petclinic:pom.xml</string>
+          <string>18759fdfeb5391eebddc655be33bacfc</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>80</number>
+  <startTime>1369053323152</startTime>
+  <result>SUCCESS</result>
+  <duration>81801</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/root/.jenkins/jobs/pet-clinic-release/workspace</workspace>
+  <hudsonVersion>1.510</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@1.3.0">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>root</string>
+  </culprits>
+  <mavenVersionUsed>3.0.5</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>
