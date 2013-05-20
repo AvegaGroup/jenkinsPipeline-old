@@ -39,7 +39,7 @@
     <relativeTargetDir></relativeTargetDir>
     <reference></reference>
     <excludedRegions></excludedRegions>
-    <excludedUsers>avegaLabUser</excludedUsers>
+    <excludedUsers>root</excludedUsers>
     <gitConfigName></gitConfigName>
     <gitConfigEmail></gitConfigEmail>
     <skipTag>false</skipTag>
